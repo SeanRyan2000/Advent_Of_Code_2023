@@ -31,8 +31,7 @@ def stringReplace(line):
 def extract_numbers_from_list(string_list):
     for line in string_list:
         firstNumberBool, firstNumber, lastNumber = True, "", ""
-        writtenNumberBool, writtenNumber = False, ""
-
+        
         line = stringReplace(line)
         
         for character in line:
